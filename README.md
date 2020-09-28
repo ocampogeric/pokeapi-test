@@ -2,7 +2,7 @@
 
 ## 1.- Download gradle dependencies
 ```bash
-gradle build
+./gradlew build
 ```
 
 ## 2.- Init MySql database
