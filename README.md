@@ -9,6 +9,7 @@
 Move to docker compose folder
 ```bash
 cd pokemondb-docker-compose
+mkdir mysql-data
 ```
 Init MySql service with docker-compose and the existing file docker-compose.yml, _mysql-data_ folder will be the temporal data volume for our mysql container, do not modify it.
 ```bash
