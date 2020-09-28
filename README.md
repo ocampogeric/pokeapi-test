@@ -1,11 +1,6 @@
 # Instructions to run project
 
-## 1.- Download gradle dependencies
-```bash
-./gradlew build
-```
-
-## 2.- Init MySql database
+## 1.- Init MySql database
 Move to docker compose folder
 ```bash
 cd pokemondb-docker-compose
@@ -15,6 +10,12 @@ Init MySql service with docker-compose and the existing file docker-compose.yml,
 ```bash
 docker-compose up -d
 ```
+
+## 2- Download gradle dependencies
+```bash
+./gradlew build
+```
+
 Wait a few seconds for mysql service it's ready for accept connections.
 Then, go back to _build/lib/_ folder and execute compiled and generated jar
 ```bash
