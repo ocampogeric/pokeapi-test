@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    container_name: db-mysql
+    image: mysql:5.7
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: poke_bd123_.
+      MYSQL_DATABASE: pokemon-db
+      MYSQL_USER: poke-user
+      MYSQL_PASSWORD: pokedb2020_.
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    networks:
+      mynet:
+
+
+networks:
+  mynet:
