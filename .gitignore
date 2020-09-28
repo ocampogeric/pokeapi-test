@@ -32,3 +32,5 @@ out/
 
 ### VS Code ###
 .vscode/
+### Mysql Data Test only ###
+pokemondb-docker-compose/mysql-data/
